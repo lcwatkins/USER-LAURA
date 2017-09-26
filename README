@@ -1,0 +1,10 @@
+
+** Intial structure from compute_dihedral_local
+** 2nd group structure from compute_group_group
+
+Notes/to-dos:
+-- May want to change groupflags in compute_scalar fxn
+-- May want to break as soon as each dihed is found, however this
+   would depend on each group only specifying one interaction to
+   avoid errors. Would somehow need to check this then (is there
+   a group function for # of atoms included in group?)
